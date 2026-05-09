@@ -6,7 +6,7 @@ export function Menu() {
   const { t } = useLanguage();
   return (
     <section className="pt-32 pb-24 bg-brand-dark min-h-screen">
-      <div className="max-w-4xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col mb-16 items-center text-center">
           <span className="font-serif italic text-brand-yellow text-lg">{t('menu.subtitle')}</span>
           <h2 className="font-display text-6xl md:text-8xl tracking-wide uppercase mt-2">{t('menu.title.1')}<span className="text-brand-yellow">{t('menu.title.2')}</span>{t('menu.title.3')}</h2>
@@ -19,7 +19,7 @@ export function Menu() {
               <h3 className="font-display text-4xl text-brand-yellow tracking-wide uppercase mb-6 border-b border-white/10 pb-4">
                 {section.title}
               </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-16 gap-y-10">
                 {section.items.map((item, itemIdx) => (
                   <div key={itemIdx} className="flex flex-col">
                     <div className="flex items-start justify-between mb-2">
