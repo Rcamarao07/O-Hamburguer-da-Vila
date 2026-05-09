@@ -17,7 +17,7 @@ const translations = {
     
     'hero.passion': 'Feito à mão com paixão',
     'hero.title.1': 'A Experiência',
-    'hero.title.2': 'Rústica',
+    'hero.title.2': 'Gourmet',
     'hero.desc': 'Hambúrgueres preparados com uma mistura secreta, cheddar derretido e o nosso molho especial da casa, servidos num pão brioche quente e tostado em manteiga. Bem-vindo à melhor hamburgueria da zona.',
     'hero.button': 'Ver Ementa',
 
@@ -68,7 +68,7 @@ const translations = {
     'nav.order': 'Order Now',
     
     'hero.passion': 'Handcrafted with passion',
-    'hero.title.1': 'The Rustic',
+    'hero.title.1': 'The Gourmet',
     'hero.title.2': 'Experience',
     'hero.desc': 'Burgers made with our secret blend, melted cheddar, and our special house sauce, served in a warm, butter-toasted brioche bun. Welcome to the best burger joint in the neighborhood.',
     'hero.button': 'View Menu',

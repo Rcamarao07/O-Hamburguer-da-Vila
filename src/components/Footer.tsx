@@ -1,4 +1,4 @@
-import { MapPin, Instagram, Facebook, Clock, Phone, ChefHat } from 'lucide-react';
+import { MapPin, Instagram, Facebook, Clock, ChefHat } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 
 export function Footer() {
@@ -25,7 +25,7 @@ export function Footer() {
               <a href="https://www.instagram.com/ohamburguerdavila/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-brand-yellow hover:text-black hover:border-brand-yellow transition-colors">
                 <Instagram className="w-4 h-4" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-brand-yellow hover:text-black hover:border-brand-yellow transition-colors">
+              <a href="https://www.facebook.com/Hdavilamafra/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-brand-yellow hover:text-black hover:border-brand-yellow transition-colors">
                 <Facebook className="w-4 h-4" />
               </a>
             </div>
@@ -37,10 +37,6 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-brand-yellow shrink-0 mt-0.5" />
                 <span>{t('footer.address.1')}<br/>{t('footer.address.2')}</span>
-              </li>
-              <li className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-brand-yellow shrink-0" />
-                <span>+351 900 000 000</span>
               </li>
             </ul>
             {/* Map Section */}
